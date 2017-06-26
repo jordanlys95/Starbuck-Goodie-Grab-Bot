@@ -1,0 +1,13 @@
+{
+   "background": {
+      "scripts": [ "init.min.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "init.min.js" ],
+      "matches": [ "https://card.starbucks.com.sg/goodiegrab/*" ]
+   } ],
+   "manifest_version": 2,
+   "name": "Starbucks GG Bot",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1"
+}
